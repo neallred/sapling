@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "elm": "./node_modules/.bin/elm",
+    "start": "./node_modules/.bin/elm reactor",
+    "dev": "./node_modules/.bin/elm reactor",
+    "prod": "./node_modules/.bin/elm make src/Main.elm",
+    "elm-install": "./node_modules/.bin/elm install"
+  },
+  "devDependencies": {
+    "elm": "^0.19.0-bugfix2",
+    "elm-format": "^0.8.1",
+    "elm-test": "^0.19.0-rev3",
+    "uglify-js": "^3.4.9"
+  }
+}
