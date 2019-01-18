@@ -32,6 +32,12 @@ The bundling script is based on a script by Evan Czaplicki.
 See [Small Assets without the Headache](https://elm-lang.org/blog/small-assets-without-the-headache)
 and [How to optimize Elm code](https://elm-lang.org/0.19.0/optimize)
 
+## Ideas for experimenting
+  * Add a static `h1` element
+  * Add a simple counter with increment and decrementing buttons
+  * Add another field from the JSON api to the view.
+  * Add a style library, e.g. [elm-css](https://github.com/rtfeldman/elm-css) or [elm-ui](https://github.com/mdgriffith/elm-ui)
+  * Add tests (consider [elm-test](https://github.com/elm-explorations/test))
 
 ## Elm and React Comparison
 
@@ -56,3 +62,25 @@ Formatter       | prettier/eslint   | elm-format
 Linter          | eslint            | elm-format?
 Versioning      | semver            | enforced semver
 ```
+
+Also good to think about, React was written in SML. It was rewritten in JSX because people thought it was weird. ReasonML/ReasonReact is ML like.
+
+## Notable elm talks
+###### The Life of a File
+  Why big files are ok in Elm.
+  https://www.youtube.com/watch?v=XpDsk374LDE
+
+###### What is Success?
+  Philosophy of Elm, process of Elm language design. Elm <3 Python, https://www.youtube.com/watch?v=uGlzRt-FYto
+
+###### Let's be Mainstream
+  Elm should be highly learnable and easy to use, https://www.youtube.com/watch?v=oYk8CKH7OhE
+
+###### Making Impossible States Impossible
+  Leveraging the type system to write sound code, https://www.youtube.com/watch?v=oYk8CKH7OhE
+
+###### Convergent Evolution
+  Comparison by Evan of Elm and React and their development https://www.youtube.com/watch?v=jl1tGiUiTtI
+
+###### The Hard Parts of Open Source
+  Thoughts by Evan on ideal versus real-life open source communities, https://www.youtube.com/watch?v=o_4EX4dPppA
